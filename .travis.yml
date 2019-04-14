@@ -1,0 +1,37 @@
+language: go
+dist: trusty
+
+# docker コンテナとして立ち上がるので起動が早い
+sudo: false
+
+env:
+  # バージョン固定
+  - HUGO_VERSION=0.55.1
+
+# このセクションを挟まないと勝手に go test を走らせようとしてコケる
+install: true
+
+# .deb パッケージをダウンロードしてインストール
+before_script:
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.55.1/hugo_0.55.1_Linux-64bit.deb
+  - sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
+
+# ビルド実行
+script:
+  - hugo -v
+
+# デプロイ設定
+deploy:
+  # github pages 用のプロバイダ設定
+  provider: pages
+  # 公開するファイルがあるディレクトリ指定
+  local-dir: public
+  # script セクションで実行したビルド結果をそのまま残す
+  skip_cleanup: true
+  # github から取得した personal access token
+  github_token: $GITHUB_TOKEN
+  # force push せずみ commit を重ねる
+  keep_history: true
+  # master ブランチへの push 時のみに限る
+  on:
+    branch: master
