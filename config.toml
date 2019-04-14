@@ -5,6 +5,7 @@ canonifyurls = true
 paginate = 3
 theme = "hugo-theme-hello-friend-ng"
 hasCJKLanguage = true
+publishDir = "docs"
 DefaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = true
 languageCode = "ja"
