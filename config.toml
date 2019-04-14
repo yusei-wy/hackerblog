@@ -1,11 +1,13 @@
 baseURL = "https://yusei-wy.github.io/hackerblog/"
+title = "Hacker Blog"
+author = "yusei-wy"
 canonifyurls = true
+paginate = 3
+theme = "hugo-theme-hello-friend-ng"
 hasCJKLanguage = true
 DefaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = true
 languageCode = "ja"
-title = "Hacker Blog"
-theme = "hugo-theme-hello-friend-ng"
 
 [params]
  # Directory name of your blog content (default is `content/posts`)
