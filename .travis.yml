@@ -14,7 +14,7 @@ install:
 
 # ビルド実行
 script:
-  - hugo -v
+  - hugo
 
 # デプロイ設定
 deploy:
