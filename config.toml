@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "https://yusei-wy.github.io/hackerblog/"
+canonifyurls = true
 hasCJKLanguage = true
 DefaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = true
