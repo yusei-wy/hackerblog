@@ -1,4 +1,4 @@
-baseURL = "https://yusei-wy.github.io/hackerblog/"
+baseURL = "https://yusei-wy.github.io/"
 title = "Hacker Blog"
 author = "yusei-wy"
 canonifyurls = true
