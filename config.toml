@@ -20,9 +20,9 @@ languageCode = "ja"
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about/"
+    url = "/about"
 
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "/posts/"
+    url = "/posts"
