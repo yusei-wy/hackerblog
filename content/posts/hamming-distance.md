@@ -1,7 +1,6 @@
 ---
 title: "ハミング距離"
 date: 2019-04-16T20:08:32+09:00
-draft: true
 toc: false
 images:
 tags:
@@ -46,9 +45,9 @@ str2 = "1000101"
 
 cnt = 0
 for s1, s2 in zip(list(str1), list(str2)):
-  if s1 is s2:
-    cnt += 1
-print(cnt) # 2
+    if s1 is not s2:
+        cnt += 1
+print(cnt)  # 2
 ```
 
 簡単ですね。
