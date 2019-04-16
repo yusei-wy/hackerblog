@@ -7,6 +7,7 @@ date: 2019-04-14T17:02:17+09:00
 * 2008/04 - 2011/03 徳島県立小松島西高等学校商業科
 * 2011/07 - 現在 株式会社アマタ
 
+
 ## SNS アカウント
 * Twitter: [@yusei_wy](https://twitter.com/yusei_wy)
 * GitHub: [yusei-wy](https://github.com/yusei-wy)
