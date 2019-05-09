@@ -24,8 +24,8 @@ robots: "noindex,nofollow,noarchive"
   * JavaScript / HTML / CSS 6年以上
 * その他ソフトウェア開発
   * CLI ツール (Linux / C / Go / Python)
-  * スクレイピングツール (Pythong
-  * スマホアプリ自動操作マクロ(UWSC)
+  * スクレイピングツール (Python）
+  * スマホアプリ自動操作マクロ（UWSC）
 
 ## プログラミングスキル
 
@@ -47,9 +47,11 @@ robots: "noindex,nofollow,noarchive"
 ### Python
   * Web サイトのスクレイピングツールの開発。
   * Web から動画をダウンロードするソフトの開発。
+  * Django 趣味レベルのアプリランキングサイトの作成。
 
 #### C
   * 『ふつうの Linux プログラミン』を読んで cat, grep, httpd などのコマンドを開発。
+  * 『やさしい Lisp の作り方』で簡単な Lisp 処理系の開発。
   * 『OS 自作入門』を読んで20日目あたりまで Ubuntu で OS の開発。完成はしていませんが、Linux の知識が深まりポインタやアセンブラへの苦手意識が薄まりました。
 
 ### Rust
