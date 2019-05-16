@@ -11,7 +11,8 @@ robots: "noindex,nofollow,noarchive"
 * 氏名：笠原 悠聖(Kasahara Yusei)
 * Twitter: [@yusei_wy](https://twitter.com/yusei_wy)
 * GitHub: [yusei-wy](https://github.com/yusei-wy)
-
+* GitHub(会社用): [amatakasap](https://github.com/amatakasap)
+* Qiita(会社用): [@amatakasap](https://qiita.com/amatakasap)
 
 ## 職務経歴（概要）
 
@@ -46,18 +47,22 @@ robots: "noindex,nofollow,noarchive"
 
 ### Python
   * Web サイトのスクレイピングツールの開発。
-  * Web から動画をダウンロードするソフトの開発。
+  * [ニコニコ動画から動画をダウンロードするソフト開発](https://github.com/yusei-wy/nicodl)。
   * Django 趣味レベルのアプリランキングサイトの作成。
 
 #### C
-  * 『ふつうの Linux プログラミン』を読んで cat, grep, httpd などのコマンドを開発。
-  * 『やさしい Lisp の作り方』で簡単な Lisp 処理系の開発。
-  * 『OS 自作入門』を読んで20日目あたりまで Ubuntu で OS の開発。完成はしていませんが、Linux の知識が深まりポインタやアセンブラへの苦手意識が薄まりました。
+  * Linux コマンド  
+    『ふつうの Linux プログラミン』を読んで cat, grep, httpd などのコマンドを開発。
+  * [MonoLis](https://github.com/yusei-wy/MonoLis)  
+    『やさしい Lisp の作り方』で簡単な Lisp 処理系の開発。
+  * [HariboteOS](https://github.com/yusei-wy/HariboteOS)  
+    『OS 自作入門』を読んで20日目あたりまで Ubuntu で OS の開発。完成はしていませんが、Linux の知識が深まりポインタやアセンブラへの苦手意識が薄まりました。
 
 ### Rust
-  * 勉強中。
-  * 『Go 言語でつくるインタプリンタ』が写経では身につかないので Rust で開発中。
-  * [低レイヤを知りたい人のためのCコンパイラ作成入門](https://www.sigbus.info/compilerbook/)を読んで C コンパイラを開発中。
+  * [rucky](https://github.com/yusei-wy/rucky)  
+    インタプリンタ。開発中。
+  * [r9cc](https://github.com/yusei-wy/r9cc)  
+    C コンパイラ。開発中。
 
 ### Go
   * 画像にグレースケールを施したり、リサイズする CLI ツールの開発。
@@ -77,17 +82,23 @@ robots: "noindex,nofollow,noarchive"
   - Android/iOS 対応の Cordova を使用したハイブリットアプリ(TypeScript / SCSS)
   - フレームワークに Vue.js を使用
   - 前回のアプリ開発時にコンポーネント志向な設計を行っていたためかなり流用でき比較的早く完成できました
+  - Cordova でのアプリ開発にもかなり慣れていたので、プラグインで複数のバグを発見し GitHub でプルリクエストを送信して実際にマージされることもありました。
 
-- 2017/12〜6ヶ月 - マッチングアプリの開発
+- 2017/12〜6ヶ月 - マッチングアプリの開発  
+[Google Play Store](https://play.google.com/store/apps/details?id=com.aizuchat.app&hl=ja)  
+[App Store](https://itunes.apple.com/jp/app/aizu-%E3%83%A9%E3%82%A4%E3%83%96%E3%83%81%E3%83%A3%E3%83%83%E3%83%88-%E3%83%93%E3%83%87%E3%82%AA%E9%80%9A%E8%A9%B1/id1357911124?mt=8)
   - フロントエンド全般を担当
   - Android/iOS 対応の Cordova を使用したハイブリットアプリ(TypeScript / SCSS)
   - フレームワークに Vue.js を使用
   - WebRTC ライブラリ OpenTok を用いた音声・ビデオ通話機能の実装
   - Web でネイティブ並みのパフォーマンスをだすために仮想スクロールのや先読みで遅延のないページ遷移の実装
   - 自由度の高い Android だけでなく iOS でも CallKit や VoIP Push を活用し使いやすい通話機能を実装
-  - 内部的には SPA として開発されているので Web アプリとしてもリリース。一部の機能（通話機能など）を除いてネイティブとほぼ同じ操作性を実現
+  - 内部的には SPA として開発されているので Web アプリとしてもリリース。一部の機能（通話機能など）を除いてネイティブとほぼ同じ操作性を実現させるためにネイティブコンポーネントを Vue のコンポーネントとして再現。
+  - 社内でタスク管理ソフトを使う文化がなかったので Trello を導入してタスクを可視化してチーム全員で共有できるようにしました。
 
-- 2016/07〜6ヶ月 - ビデオ通話アプリの Cordova への移植
+- 2016/07〜6ヶ月 - ビデオ通話アプリの Cordova への移植  
+[Google Play Store](https://play.google.com/store/apps/details?id=jp.tomosin.minmin&hl=ja)  
+[App Store](https://itunes.apple.com/jp/app/minmin/id890353434?mt=8)
   - フロントエンド全般を担当
   - 管理しやすいように Objective-C と Java で開発していた既存のネイティブアプリを Cordova に移植
   - フレームワークには Riot.js を使用
