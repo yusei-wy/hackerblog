@@ -9,10 +9,10 @@ robots: "noindex,nofollow,noarchive"
 ---
 
 * 氏名：笠原 悠聖(Kasahara Yusei)
-* Twitter: [@yusei_wy](https://twitter.com/yusei_wy)
-* GitHub: [yusei-wy](https://github.com/yusei-wy)
-* GitHub(会社用): [amatakasap](https://github.com/amatakasap)
-* Qiita(会社用): [@amatakasap](https://qiita.com/amatakasap)
+* Twitter：[@yusei_wy](https://twitter.com/yusei_wy)
+* GitHub：[yusei-wy](https://github.com/yusei-wy)
+* GitHub(会社用)：[amatakasap](https://github.com/amatakasap)
+* Qiita(会社用)：[@amatakasap](https://qiita.com/amatakasap)
 
 ## 職務経歴（概要）
 
