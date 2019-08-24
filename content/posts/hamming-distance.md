@@ -1,8 +1,7 @@
 ---
-title: "ハミング距離"
+title: 'ハミング距離'
 date: 2019-04-16T20:08:32+09:00
 toc: false
-images:
 tags:
   - アルゴリズム
 ---

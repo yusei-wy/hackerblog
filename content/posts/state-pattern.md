@@ -1,8 +1,7 @@
 ---
-title: "State パターン"
+title: 'State パターン'
 date: 2019-06-07T19:28:31+09:00
 toc: false
-images:
 tags:
   - デザインパターン
 ---
