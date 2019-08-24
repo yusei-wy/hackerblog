@@ -8,6 +8,7 @@ hasCJKLanguage = true
 DefaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = true
 languageCode = "ja"
+enableGitInfo = true
 
 [params]
   # Directory name of your blog content (default is `content/posts`)
