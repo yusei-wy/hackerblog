@@ -214,7 +214,7 @@ test('There is a string &quot;Welcom to React&quot;', () =&gt; {
 <p>テストを実行して通れば OK です。</p>
 
 <p>長くなったので、一旦ここで締めます。<br />
-実際の開発は次回の<a href="">開発編</a>で説明したいと思います。</p>
+実際の開発は次回の[開発編]()で説明したいと思います。</p>
 ]]></content>
         </item>
         

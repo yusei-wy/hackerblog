@@ -130,3 +130,4 @@ robots: "noindex,nofollow,noarchive"
 - 2013/08〜3ヶ月 - Android を対象にしたビデオ通話 Web アプリ開発
   - 自社で運用するサイトでスマホでもビデオ通話ができるように JavaScript で WebRTC と Node.js を使って開発
   - 通話のたびにカメラやマイク許可設定が必要だったり iOS では WebRTC に対応してなかったことから公開されていません
+

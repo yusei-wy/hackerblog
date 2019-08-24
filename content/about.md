@@ -71,3 +71,4 @@ date: 2019-04-14T17:02:17+09:00
 ### その他
   * Git や GitHub / GitLab を使ったバージョン管理。
   * Gulp / Grunt / Webpack / Rollup を使ったフロントエンド開発。
+
