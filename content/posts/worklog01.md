@@ -19,8 +19,6 @@ https://medium.com/better-programming/create-a-chrome-extension-using-react-and-
 
 ## プロジェクトの作成
 
----
-
 React と TypeScript を使って拡張機能を開発するので、必要なパッケージをインストールしプロジェクトを作成します。
 
 ```
@@ -30,8 +28,6 @@ $ cd my-app
 ```
 
 ## エラーチェックとフォーマット
-
----
 
 エラーチェックとコードフォーマットのために eslint と prettier をインストールします。
 
@@ -114,8 +110,6 @@ module.exports = {
 
 ## Manifest File
 
----
-
 Chrome 拡張には Manifest File が必要です。
 拡張機能の名前と説明、使用する API のパーミッションの設定などを .json ファイルとして記述します。
 `public/manifest.json` を以下の内容に書き換えます。
@@ -148,8 +142,6 @@ Manifest File の内容に合わせて icon も `public/` 内に用意してお�
 
 ## ビルド
 
----
-
 以下のコマンドを実行してプロジェクトをビルドします。  
 すると `build/` 以下にファイルが生成されます。
 
@@ -158,8 +150,6 @@ $ yarn build
 ```
 
 ## Chrome にビルドした拡張機能の読み込み
-
----
 
 1. chrome://extensions/ にアクセス
 1. [デベロッパーモード]を ON
@@ -177,8 +167,6 @@ INLINE_RUNTIME_CHUNK=false
 そして `yarn build` し直して、拡張機能を読み込めば完了です。
 
 ## テスト
-
----
 
 テスト環境を構築します。  
 create-react-app でプロジェクトを作成するとデフォルト Jest がインストールされるので、 `enzyme` というパッケージを追加でインストールすることで、React でのテストが容易になります。

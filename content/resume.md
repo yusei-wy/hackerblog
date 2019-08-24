@@ -6,8 +6,6 @@ robots: "noindex,nofollow,noarchive"
 
 ## プロフィール
 
----
-
 * 氏名：笠原 悠聖(Kasahara Yusei)
 * Twitter：[@yusei_wy](https://twitter.com/yusei_wy)
 * GitHub：[yusei-wy](https://github.com/yusei-wy)
@@ -15,8 +13,6 @@ robots: "noindex,nofollow,noarchive"
 * Qiita(会社用)：[@amatakasap](https://qiita.com/amatakasap)
 
 ## 職務経歴（概要）
-
----
 
 * スマホアプリの開発
   * 設計 / 制作：5年
@@ -29,8 +25,6 @@ robots: "noindex,nofollow,noarchive"
   * スマホアプリ自動操作マクロ（UWSC）
 
 ## プログラミングスキル
-
----
 
 ### JavaScript / TypeScript
   * 2013年から日常的に利用。Web ページにちょっとした動きをつけたり、SPA(シングルページアプリケーション)の開発まで経験。
@@ -72,8 +66,6 @@ robots: "noindex,nofollow,noarchive"
   * Gulp / Grunt / Webpack / Rollup を使ったフロントエンド開発。
 
 ## 職務経歴
-
----
 
 ### 株式会社アマタ（2011/07〜現在）
 

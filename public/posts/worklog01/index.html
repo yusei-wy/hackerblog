@@ -119,8 +119,6 @@
 
 <h2 id="プロジェクトの作成">プロジェクトの作成</h2>
 
-<hr />
-
 <p>React と TypeScript を使って拡張機能を開発するので、必要なパッケージをインストールしプロジェクトを作成します。</p>
 
 <pre><code>$ npm i -g create-react-app
@@ -129,8 +127,6 @@ $ cd my-app
 </code></pre>
 
 <h2 id="エラーチェックとフォーマット">エラーチェックとフォーマット</h2>
-
-<hr />
 
 <p>エラーチェックとコードフォーマットのために eslint と prettier をインストールします。</p>
 
@@ -210,8 +206,6 @@ $ cd my-app
 
 <h2 id="manifest-file">Manifest File</h2>
 
-<hr />
-
 <p>Chrome 拡張には Manifest File が必要です。
 拡張機能の名前と説明、使用する API のパーミッションの設定などを .json ファイルとして記述します。
 <code>public/manifest.json</code> を以下の内容に書き換えます。</p>
@@ -243,8 +237,6 @@ $ cd my-app
 
 <h2 id="ビルド">ビルド</h2>
 
-<hr />
-
 <p>以下のコマンドを実行してプロジェクトをビルドします。<br />
 すると <code>build/</code> 以下にファイルが生成されます。</p>
 
@@ -252,8 +244,6 @@ $ cd my-app
 </code></pre>
 
 <h2 id="chrome-にビルドした拡張機能の読み込み">Chrome にビルドした拡張機能の読み込み</h2>
-
-<hr />
 
 <ol>
 <li>chrome://extensions/ にアクセス</li>
@@ -272,8 +262,6 @@ $ cd my-app
 <p>そして <code>yarn build</code> し直して、拡張機能を読み込めば完了です。</p>
 
 <h2 id="テスト">テスト</h2>
-
-<hr />
 
 <p>テスト環境を構築します。<br />
 create-react-app でプロジェクトを作成するとデフォルト Jest がインストールされるので、 <code>enzyme</code> というパッケージを追加でインストールすることで、React でのテストが容易になります。</p>

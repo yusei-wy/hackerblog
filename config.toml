@@ -13,8 +13,6 @@ enableGitInfo = true
 [params]
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
-  # Default theme "light" or "dark"
-  defaultTheme = "light"
 
 # And you can even create generic menu
 [menu]
