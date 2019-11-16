@@ -18,6 +18,10 @@ Vue で Store の getter を書いているときに引数によって戻り値�
 const getters = {
   getByID: (state) => (id: strig) => state.todos.find(t => t.id === id)
 }
+
+...
+
+this.$store.getters.getByID('123')
 ```
 
 ## vuex-compositoin-api
@@ -25,6 +29,10 @@ const getters = {
 ```ts
 const state = reactive({ ... })
 const getByID = computed(() => (id: string) => state.todos.find(t => t.id === id))
+
+...
+
+getByID('123')
 ```
 
 ## 参考
